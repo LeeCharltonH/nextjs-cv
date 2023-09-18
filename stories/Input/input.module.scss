@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  > label {
+    padding-bottom: 5px;
+  }
+}
+
+input {
+  border: 1px solid grey;
+  border-radius: 3px;
+
+  :focus-visible {
+    border: 1px solid lightgray;
+  }
+}
