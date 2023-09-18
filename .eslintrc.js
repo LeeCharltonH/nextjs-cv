@@ -34,6 +34,8 @@ module.exports = {
         'quotes': ['error', 'single'],
         'curly': ['error', 'all'],
         'semi-style': ['error', 'last'],
-        'indent': ['error', 'tab']
+        'indent': ['error', 'tab'],
+        'react/react-in-jsx-scope': 'off',
+        'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx', '.ts', '.tsx'] }],
     },
 };
