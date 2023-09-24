@@ -1,19 +1,15 @@
-import { ReactNode } from "react";
+import { NextFont } from '@next/font';
+import { ReactNode } from 'react';
 
 interface PageComposerProps {
+  globalFont: NextFont;
   children: React.ReactNode;
 }
 
-export const PageComposer = ({children}: PageComposerProps): ReactNode => {
-  return <>
-    <nav>
-      <ul>
-        <li>Link 1</li>
-        <li>Link 2</li>
-      </ul>
-    </nav>
-    <main>
-    {children}
-    </main>
-  </>
-}
+export const PageComposer = ({ globalFont, children }: PageComposerProps): ReactNode => {
+	return <>
+		<main className={globalFont.className}>
+			{children}
+		</main>
+	</>;
+};
