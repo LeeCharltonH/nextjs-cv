@@ -1,0 +1,45 @@
+$dark-gray: #212529;
+$gray: #343a40;
+$light-gray: #6c757d;
+$lighter-gray: #adb5bd;
+
+// Primary
+$primary-darker-green: #003338;
+$primary-dark-green: #004f57;
+$primary-green: #006c75;
+$primary-light-green: #008894;
+$primary-lighter-green:#00a4b3;
+
+// Secondary
+$secondary-darker-peach: #ffaf94;
+$secondary-dark-peach: #ffc6b3;
+$secondary-peach: #ffddd1;
+$secondary-light-peach: #ffece5;
+$secondary-lighter-peach: #ffffff;
+
+
+// Error
+$error-darker-red: #a00d43;
+$error-dark-red: #bd0f4f;
+$error-red: #d9125b;
+$error-light-red: #ed1d69;
+$error-lighter-red: #ef397c;
+
+// Error
+$warning-darker-yellow: #ffb300;
+$warning-dark-yellow: #ffbc1f;
+$warning-yellow: #ffc53d;
+$warning-light-yellow: #ffce5c;
+$warning-lighter-yellow: #ffd77a;
+
+// Button - Primary
+$btn-primary-bg: $primary-green;
+$btn-primary-hover: $primary-light-green;
+$btn-primary-active: $primary-dark-green;
+$btn-primary-label: $secondary-lighter-peach;
+
+// Button - Secondary
+$btn-secondary-bg: $secondary-peach;
+$btn-secondary-hover: $secondary-light-peach;
+$btn-secondary-active: $secondary-dark-peach;
+$btn-secondary-label: $gray;

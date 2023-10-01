@@ -1,0 +1,161 @@
+@import './color.scss';
+@import './typography';
+@import './spacing';
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-size: $text-base-size;
+}
+
+h1, h2, h3, h4, p {
+    font-family: $primary-font;
+    font-weight: 400;
+}
+
+h1 {
+  font-size: $text-xxl;
+  margin-bottom: $space-lg;
+}
+
+h2 {
+  font-size: $text-xl;
+  margin-bottom: $space-md;
+}
+
+h3 {
+  font-size: $text-lg;
+  margin-bottom: $space-sm;
+}
+
+h4 {
+  font-size: $text-md;
+}
+
+@font-face {
+    font-family: 'Proza Libre';
+    src: url('../public/fonts/ProzaLibre-ExtraBold.eot');
+    src: url('../public/fonts/ProzaLibre-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/ProzaLibre-ExtraBold.woff2') format('woff2'),
+        url('../public/fonts/ProzaLibre-ExtraBold.woff') format('woff'),
+        url('../public/fonts/ProzaLibre-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proza Libre';
+    src: url('../public/fonts/ProzaLibre-Regular.eot');
+    src: url('../public/fonts/ProzaLibre-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/ProzaLibre-Regular.woff2') format('woff2'),
+        url('../public/fonts/ProzaLibre-Regular.woff') format('woff'),
+        url('../public/fonts/ProzaLibre-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proza Libre';
+    src: url('../public/fonts/ProzaLibre-MediumItalic.eot');
+    src: url('../public/fonts/ProzaLibre-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/ProzaLibre-MediumItalic.woff2') format('woff2'),
+        url('../public/fonts/ProzaLibre-MediumItalic.woff') format('woff'),
+        url('../public/fonts/ProzaLibre-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proza Libre';
+    src: url('../public/fonts/ProzaLibre-Italic.eot');
+    src: url('../public/fonts/ProzaLibre-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/ProzaLibre-Italic.woff2') format('woff2'),
+        url('../public/fonts/ProzaLibre-Italic.woff') format('woff'),
+        url('../public/fonts/ProzaLibre-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proza Libre';
+    src: url('../public/fonts/ProzaLibre-BoldItalic.eot');
+    src: url('../public/fonts/ProzaLibre-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/ProzaLibre-BoldItalic.woff2') format('woff2'),
+        url('../public/fonts/ProzaLibre-BoldItalic.woff') format('woff'),
+        url('../public/fonts/ProzaLibre-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proza Libre';
+    src: url('../public/fonts/ProzaLibre-SemiBoldItalic.eot');
+    src: url('../public/fonts/ProzaLibre-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/ProzaLibre-SemiBoldItalic.woff2') format('woff2'),
+        url('../public/fonts/ProzaLibre-SemiBoldItalic.woff') format('woff'),
+        url('../public/fonts/ProzaLibre-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proza Libre';
+    src: url('../public/fonts/ProzaLibre-ExtraBoldItalic.eot');
+    src: url('../public/fonts/ProzaLibre-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/ProzaLibre-ExtraBoldItalic.woff2') format('woff2'),
+        url('../public/fonts/ProzaLibre-ExtraBoldItalic.woff') format('woff'),
+        url('../public/fonts/ProzaLibre-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proza Libre';
+    src: url('../public/fonts/ProzaLibre-SemiBold.eot');
+    src: url('../public/fonts/ProzaLibre-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/ProzaLibre-SemiBold.woff2') format('woff2'),
+        url('../public/fonts/ProzaLibre-SemiBold.woff') format('woff'),
+        url('../public/fonts/ProzaLibre-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proza Libre';
+    src: url('../public/fonts/ProzaLibre-Bold.eot');
+    src: url('../public/fonts/ProzaLibre-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/ProzaLibre-Bold.woff2') format('woff2'),
+        url('../public/fonts/ProzaLibre-Bold.woff') format('woff'),
+        url('../public/fonts/ProzaLibre-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proza Libre';
+    src: url('../public/fonts/ProzaLibre-Medium.eot');
+    src: url('../public/fonts/ProzaLibre-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/ProzaLibre-Medium.woff2') format('woff2'),
+        url('../public/fonts/ProzaLibre-Medium.woff') format('woff'),
+        url('../public/fonts/ProzaLibre-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

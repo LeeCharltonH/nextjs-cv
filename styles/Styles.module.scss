@@ -1,0 +1,164 @@
+
+@import './color.scss';
+@import './spacing.scss';
+@import './typography';
+
+.colorContainer {
+  width: 100%;
+  padding: $space-sm;
+  display: flex;
+  flex-wrap: wrap;
+
+  .colorItem {
+    padding: 0 $space-sm $space-sm $space-sm;
+
+    .colorSquareDarkGray {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $dark-gray;
+    }
+
+    .colorSquareGray {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $gray;
+    }
+
+    .colorSquareLightGray {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $light-gray;
+    }
+
+    .colorSquareLighterGray {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $lighter-gray;
+    }
+
+    // Primary
+    .colorSquareDarkerGreen {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $primary-darker-green;
+    }
+
+    .colorSquareDarkGreen {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $primary-dark-green;
+    }
+
+    .colorSquareGreen {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $primary-green;
+    }
+
+    .colorSquarelightGreen {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $primary-light-green;
+    }
+
+    .colorSquarelighterGreen {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $primary-lighter-green;
+    }
+
+    //secondary 
+    .colorSquareDarkerPeach {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $secondary-darker-peach;
+    }
+
+    .colorSquareDarkPeach {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $secondary-dark-peach;
+    }
+
+    .colorSquarePeach {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $secondary-peach;
+    }
+
+    .colorSquarelightPeach {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $secondary-light-peach;
+    }
+
+    .colorSquarelighterPeach {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $secondary-lighter-peach;
+    }
+
+    //error 
+    .colorSquareDarkerRed {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $error-darker-red;
+    }
+
+    .colorSquareDarkRed {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $error-dark-red;
+    }
+
+    .colorSquareRed {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $error-red;
+    }
+
+    .colorSquarelightRed {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $error-light-red;
+    }
+
+    .colorSquarelighterRed {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $error-lighter-red;
+    }
+
+    //warning
+     .colorSquareDarkerYellow {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $warning-darker-yellow;
+    }
+
+    .colorSquareDarkYellow {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $warning-dark-yellow;
+    }
+
+    .colorSquareYellow {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $warning-yellow;
+    }
+
+    .colorSquarelightYellow {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $warning-light-yellow;
+    }
+
+    .colorSquarelighterYellow {
+      width: $space-xxl * 1.5;
+      height: $space-xxl * 1.5;
+      background-color: $warning-lighter-yellow;
+    }
+
+  }
+}

@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Proza Libre';
+    src: url('ProzaLibre-ExtraBold.eot');
+    src: url('ProzaLibre-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('ProzaLibre-ExtraBold.woff2') format('woff2'),
+        url('ProzaLibre-ExtraBold.woff') format('woff'),
+        url('ProzaLibre-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proza Libre';
+    src: url('ProzaLibre-Regular.eot');
+    src: url('ProzaLibre-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ProzaLibre-Regular.woff2') format('woff2'),
+        url('ProzaLibre-Regular.woff') format('woff'),
+        url('ProzaLibre-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proza Libre';
+    src: url('ProzaLibre-MediumItalic.eot');
+    src: url('ProzaLibre-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('ProzaLibre-MediumItalic.woff2') format('woff2'),
+        url('ProzaLibre-MediumItalic.woff') format('woff'),
+        url('ProzaLibre-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proza Libre';
+    src: url('ProzaLibre-Italic.eot');
+    src: url('ProzaLibre-Italic.eot?#iefix') format('embedded-opentype'),
+        url('ProzaLibre-Italic.woff2') format('woff2'),
+        url('ProzaLibre-Italic.woff') format('woff'),
+        url('ProzaLibre-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proza Libre';
+    src: url('ProzaLibre-BoldItalic.eot');
+    src: url('ProzaLibre-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ProzaLibre-BoldItalic.woff2') format('woff2'),
+        url('ProzaLibre-BoldItalic.woff') format('woff'),
+        url('ProzaLibre-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proza Libre';
+    src: url('ProzaLibre-SemiBoldItalic.eot');
+    src: url('ProzaLibre-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ProzaLibre-SemiBoldItalic.woff2') format('woff2'),
+        url('ProzaLibre-SemiBoldItalic.woff') format('woff'),
+        url('ProzaLibre-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proza Libre';
+    src: url('ProzaLibre-ExtraBoldItalic.eot');
+    src: url('ProzaLibre-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ProzaLibre-ExtraBoldItalic.woff2') format('woff2'),
+        url('ProzaLibre-ExtraBoldItalic.woff') format('woff'),
+        url('ProzaLibre-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proza Libre';
+    src: url('ProzaLibre-SemiBold.eot');
+    src: url('ProzaLibre-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('ProzaLibre-SemiBold.woff2') format('woff2'),
+        url('ProzaLibre-SemiBold.woff') format('woff'),
+        url('ProzaLibre-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proza Libre';
+    src: url('ProzaLibre-Bold.eot');
+    src: url('ProzaLibre-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ProzaLibre-Bold.woff2') format('woff2'),
+        url('ProzaLibre-Bold.woff') format('woff'),
+        url('ProzaLibre-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proza Libre';
+    src: url('ProzaLibre-Medium.eot');
+    src: url('ProzaLibre-Medium.eot?#iefix') format('embedded-opentype'),
+        url('ProzaLibre-Medium.woff2') format('woff2'),
+        url('ProzaLibre-Medium.woff') format('woff'),
+        url('ProzaLibre-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
