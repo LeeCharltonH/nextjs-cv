@@ -1,15 +1,20 @@
-import { Inter } from 'next/font/google';
-import styles from 'Styles/Home.module.css';
-import { MetaTags } from 'Components/MetaTags/MetaTags';
+import classNames from 'classnames';
+import styles from '../styles/Homepage.module.scss';
 
-const inter = Inter({ subsets: ['latin'] });
-
-export default function Home() {
+export default function Styles() {
 	return (
 		<>
-			<MetaTags />
-			<main className={`${styles.main} ${inter.className}`}>
-				<p>Index page</p>
+
+			<main className={classNames(styles.mainContainer)}>
+				<header>
+					<h1>LEE HASSALL</h1>
+					<section>
+						<ul>
+							<li>ABOUT</li>
+							<li>PORTFOLIO</li>
+						</ul>
+					</section>
+				</header>
 			</main>
 		</>
 	);

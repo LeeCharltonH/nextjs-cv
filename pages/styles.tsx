@@ -2,7 +2,7 @@ import styles from 'Styles/Styles.module.scss';
 import { MetaTags } from 'Components/MetaTags/MetaTags';
 import { List } from '../stories/List/List';
 
-export default function Home() {
+export default function Styles() {
 	return (
 		<>
 			<MetaTags />
