@@ -1,6 +1,5 @@
 import styles from 'Styles/Styles.module.scss';
 import { MetaTags } from 'Components/MetaTags/MetaTags';
-import { List } from '../stories/List/List';
 
 export default function Styles() {
 	return (
@@ -12,7 +11,6 @@ export default function Styles() {
 				<h3>HEADING 3</h3>
 				<h4>HEADING 4</h4>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, consectetur ullam. Saepe qui quaerat, adipisci fugit odit repudiandae ea doloremque, repellendus aliquid eum, veritatis delectus! Ducimus sequi adipisci at aliquid.</p>
-				<List />
 				<div className={styles.colorContainer}>
 					<div className={styles.colorItem}>
 						<h4>Dark Gray</h4>
