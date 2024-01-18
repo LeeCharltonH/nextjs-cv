@@ -22,6 +22,7 @@
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-prettier": "^5.0.0",
     "framer-motion": "^10.16.4",
+    "i18n-react": "^0.7.0",
     "next": "13.4.8",
     "prettier": "^3.0.0",
     "react": "18.2.0",

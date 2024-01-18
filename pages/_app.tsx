@@ -10,7 +10,6 @@ export const App = ({ Component, pageProps }: AppProps) => {
 		<MetaTags />
 		<Component {...pageProps} />
 	</div>;
-
 };
 
 export default App;
