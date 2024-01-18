@@ -1,17 +1,14 @@
-import Link from 'next/link';
-
-
+import { MetaTags } from 'Components/MetaTags/MetaTags';
+import { PageComposer } from 'Components/PageComposer/PageComposer';
 
 const Portfolio = () => {
-	return (<main>
-		<h1>Portfolio</h1>
-		<section>
-			<ul>
-				<li>ABOUT</li>
-				<li><Link href='/'>HOME</Link></li>
-			</ul>
-		</section>
-	</main>
+	return (
+		<>
+			<MetaTags />
+			<PageComposer>
+				Portfolio
+			</PageComposer>
+		</>
 	);
 };
 

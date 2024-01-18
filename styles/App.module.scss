@@ -10,9 +10,11 @@ $saturation: 110%;
 .container {
   background-color:rgba(255, 236, 229, 0.5);
   position: relative;
-  height: 100vh;
   width: 100vw;
   overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 
 }
 

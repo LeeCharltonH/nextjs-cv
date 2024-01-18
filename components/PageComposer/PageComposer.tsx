@@ -1,15 +1,15 @@
-import { NextFont } from '@next/font';
-import { ReactNode } from 'react';
+import { Footer } from 'Components/Footer/Footer';
+import { NavBar } from 'Components/Navigation/NavBar';
+import React, { PropsWithChildren } from 'react';
 
-interface PageComposerProps {
-  globalFont: NextFont;
-  children: React.ReactNode;
-}
-
-export const PageComposer = ({ globalFont, children }: PageComposerProps): ReactNode => {
+export const PageComposer: React.FC<PropsWithChildren> = ({ children }) => {
 	return <>
-		<main className={globalFont.className}>
+		<header>
+			<NavBar />
+		</header>
+		<main>
 			{children}
 		</main>
+		<Footer />
 	</>;
 };

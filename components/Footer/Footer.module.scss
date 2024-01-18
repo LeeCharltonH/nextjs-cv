@@ -1,0 +1,15 @@
+@import 'Styles/color.scss';
+@import 'Styles/spacing.scss';
+@import 'Styles/typography.scss';
+
+.footerContainer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: $dark-gray;
+  color: $secondary-lighter-peach;
+  padding: $space-md;
+  font-size: $text-xs;
+  display: flex;
+  justify-content: center;
+}

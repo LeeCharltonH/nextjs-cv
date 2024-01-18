@@ -1,0 +1,40 @@
+@import 'Styles/color.scss';
+@import 'Styles/spacing.scss';
+@import 'Styles/typography.scss';
+
+.navBar {
+  background-color: $primary-darker-green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $space-sm;
+
+  h1 {
+    font-size: $text-lg;
+    color: $secondary-light-peach;
+    margin-bottom: 0px;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    height: 100%;
+
+    li {
+      padding-left: $space-sm;
+      height: 100%;
+
+       &:hover {
+        color: $secondary-light-peach;
+        text-decoration: underline;
+        text-underline-offset: $space-xxs;
+      }
+    }
+  }
+  
+  a {
+    color: $secondary-light-peach;
+    padding-bottom: 10px;
+    text-decoration: none;
+  }
+}

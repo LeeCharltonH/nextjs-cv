@@ -1,13 +1,15 @@
 import { MetaTags } from 'Components/MetaTags/MetaTags';
 import { PageComposer } from 'Components/PageComposer/PageComposer';
 
-export default function Styles() {
+const WorkHistory = () => {
 	return (
 		<>
 			<MetaTags />
 			<PageComposer>
-				Homepage
+				Work History
 			</PageComposer>
 		</>
 	);
-}
+};
+
+export default WorkHistory;
