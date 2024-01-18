@@ -9,7 +9,18 @@
   background-color: $dark-gray;
   color: $secondary-lighter-peach;
   padding: $space-md;
-  font-size: $text-xs;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+
+  .socialLinks {
+    a {
+      padding: 0 $space-xxs;
+    }
+  }
+
+  .copyright {
+    font-size: $text-xs;
+  }
 }
