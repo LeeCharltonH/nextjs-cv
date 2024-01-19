@@ -13,6 +13,6 @@ export const Footer = () => {
 				<AiFillGithub color='#ffece5' size='25px' />
 			</a>
 		</div>
-		<span className={styles.copyright}>© Lee Charlton-Hassall </span>
+		<span className={styles.copyright}>© Lee Hassall </span>
 	</footer>;
 };
