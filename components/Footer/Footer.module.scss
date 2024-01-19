@@ -1,8 +1,9 @@
 @import 'Styles/color.scss';
 @import 'Styles/spacing.scss';
 @import 'Styles/typography.scss';
+@import 'Styles/breakpoints.scss';
 
-.footerContainer {
+.footerSection {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -10,17 +11,22 @@
   color: $secondary-lighter-peach;
   padding: $space-md;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  .socialLinks {
-    a {
-      padding: 0 $space-xxs;
+  .container {
+    @include desktop-device {
+      max-width: $desktop;
     }
-  }
 
-  .copyright {
-    font-size: $text-xs;
+    .socialLinks {
+      a {
+        padding: 0 $space-xxs;
+      }
+    }
+
+    .copyright {
+      font-size: $text-xs;
+    }
   }
 }

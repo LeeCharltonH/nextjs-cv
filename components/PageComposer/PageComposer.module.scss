@@ -1,0 +1,15 @@
+@import 'Styles/breakpoints.scss';
+@import 'Styles/spacing.scss';
+
+.mainSection {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	padding: $space-lg $space-sm;
+	
+	
+	@include desktop-device {
+		max-width: $desktop;
+		padding: $space-lg 0;
+  }
+}
