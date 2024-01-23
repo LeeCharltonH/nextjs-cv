@@ -6,10 +6,21 @@
 	flex-direction: column;
 	align-self: center;
 	padding: $space-lg $space-sm;
+	width: 100%;
+
+	.container {
+		display: flex;
+		gap: $space-lg;
+	}
 	
 	
 	@include desktop-device {
 		max-width: $desktop;
 		padding: $space-lg 0;
   }
+}
+
+
+.buffer {
+	height: $space-xxl * 1.6;;
 }

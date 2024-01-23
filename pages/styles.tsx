@@ -1,5 +1,5 @@
 import styles from 'Styles/Styles.module.scss';
-import { MetaTags } from 'Components/MetaTags/MetaTags';
+import { MetaTags } from 'Components/Layout/MetaTags/MetaTags';
 
 export default function Styles() {
 	return (

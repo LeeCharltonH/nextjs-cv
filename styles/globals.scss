@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 {
-  font-size: $text-xl;
+font-size: $text-xl;
   margin-bottom: $space-sm;
 }
 
@@ -37,7 +37,12 @@ h3 {
 }
 
 h4 {
-  font-size: $text-md;
+    font-size: $text-md;
+}
+
+p {
+    font-size: $text-sm;
+    margin-bottom: $space-sm;
 }
 
 

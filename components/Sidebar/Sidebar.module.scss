@@ -1,0 +1,25 @@
+@import 'Styles/spacing.scss';
+@import 'Styles/color.scss';
+
+.container {
+  // background-color: $lighter-gray;
+  // border-bottom: 1px solid $primary-darker-green;
+  border-right: 1px solid $primary-darker-green;
+  padding: $space-sm;
+  // border-top-right-radius: $space-xs;
+  align-self: start; 
+
+  h5 {
+    margin: $space-md 0;
+  }
+
+  ul {
+    list-style-type: none;
+    margin-right: $space-md;
+    
+    li {
+      padding-bottom: $space-sm;
+    }
+
+  }
+}

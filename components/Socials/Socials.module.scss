@@ -1,0 +1,13 @@
+@import 'Styles/color.scss';
+@import 'Styles/spacing.scss';
+
+.socialLinks {
+  a {
+    padding: 0 $space-xxs;
+  }
+}
+
+:export {
+	light: $secondary-light-peach;
+	dark: $dark-gray;
+}

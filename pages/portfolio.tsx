@@ -1,5 +1,5 @@
-import { MetaTags } from 'Components/MetaTags/MetaTags';
-import { PageComposer } from 'Components/PageComposer/PageComposer';
+import { MetaTags } from 'Components/Layout/MetaTags/MetaTags';
+import { PageComposer } from 'Components/Layout/PageComposer/PageComposer';
 import { getPortfolio } from 'Services/api/portfolio';
 import { GetStaticProps, InferGetStaticPropsType } from 'next';
 

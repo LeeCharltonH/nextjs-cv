@@ -1,0 +1,12 @@
+@import 'Styles/spacing.scss';
+@import 'Styles/color.scss';
+
+.container {
+	display: flex;
+	gap: $space-xxs;
+
+	a {
+		text-underline-offset: $space-xxs;
+		color: $dark-gray;
+	}
+}

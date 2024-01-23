@@ -1,7 +1,7 @@
 import type { InferGetStaticPropsType, GetStaticProps } from 'next';
 
-import { MetaTags } from 'Components/MetaTags/MetaTags';
-import { PageComposer } from 'Components/PageComposer/PageComposer';
+import { MetaTags } from 'Components/Layout/MetaTags/MetaTags';
+import { PageComposer } from 'Components/Layout/PageComposer/PageComposer';
 import { getWorkHistory } from 'Services/api/workHistory';
 
 export const getStaticProps = (async () => {

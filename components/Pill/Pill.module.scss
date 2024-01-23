@@ -1,0 +1,10 @@
+@import 'Styles/spacing.scss';
+@import 'Styles/color.scss';
+
+.container {
+  background-color: $primary-darker-green;
+  color: $secondary-light-peach;
+  padding: $space-xs;
+  border-top-right-radius: $space-xs;
+  margin: $space-sm 0;
+}

@@ -1,4 +1,4 @@
-import { MetaTags } from 'Components/MetaTags/MetaTags';
+import { MetaTags } from 'Components/Layout/MetaTags/MetaTags';
 
 import type { AppProps } from 'next/app';
 
