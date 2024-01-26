@@ -1,0 +1,12 @@
+@import 'Styles/spacing.scss';
+@import 'Styles/typography.scss';
+
+.container {
+	list-style-type: '- ';
+	margin-left: $space-md;
+	
+	li {
+		padding: $space-sm 0;
+		font-size: $text-sm * 0.9;
+	}
+}

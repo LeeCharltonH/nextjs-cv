@@ -1,8 +1,8 @@
 {
     "item1": {
-        "achievemnt1": "Successfully launched several react web applications for numerous clients.",
-        "achievemnt2": "Designed and developed web pages to client specifications.",
-        "achievemnt3": "Provided marketing support to set up analytics tracking across client websites.",
+        "achievement1": "Successfully launched several react web applications for numerous clients.",
+        "achievement2": "Designed and developed web pages to client specifications.",
+        "achievement3": "Provided marketing support to set up analytics tracking across client websites.",
         "company": "Self Employed",
         "date": "Nov 2021 - Present",
         "p1": "Following a career change I've been working freelance as a frontend web developer. In this time I've worked with multiple clients across different industries, including Personal Services and Healthcare professionals.",
@@ -10,9 +10,9 @@
         "title": "Front End Developer"
     },
     "item2": {
-        "achievemnt1": "Completed the Front End Development Course with The Learning people and React course with Udemy.",
-        "achievemnt2": "Developed a fully functional pairs game using ES6 standard javascript, HTML5 and CSS3.",
-        "achievemnt3": "Completed my first client project for Bear Ambition personal training using React.",
+        "achievement1": "Completed the Front End Development Course with The Learning people and React course with Udemy.",
+        "achievement2": "Developed a fully functional pairs game using ES6 standard javascript, HTML5 and CSS3.",
+        "achievement3": "Completed my first client project for Bear Ambition personal training using React.",
         "company": "The Learning People | Udemy (Student)",
         "date": "Nov 2021 - Feb 2022",
         "p1": "With The Learning People I developed a solid understanding of frontend development technologies, including: HTML5, CSS3, Javascript (ES6) and Git version control. This course introduced me to popular frameworks which led me onto studying React with Udemy. Throughout this period I developed various single page React web applications, utilising HTML, CSS, Javascript and APIs.",
@@ -20,9 +20,9 @@
         "title": "Front End Developer"
     },
     "item3": {
-        "achievemnt1": "Improved user engagement of our paid media banners by conducting AB tests. I achieved this by developing various HTML banners with CSS animation to find the optimal design.",
-        "achievemnt2": "Increased sales through Google Ads by optimising campaigns on a ROAS bidding strategy.",
-        "achievemnt3": "Increased overall new user traffic and acquisitions by shifting the marketing budget towards upper funnel activity within channels such as Paid Social and Display.",
+        "achievement1": "Improved user engagement of our paid media banners by conducting AB tests. I achieved this by developing various HTML banners with CSS animation to find the optimal design.",
+        "achievement2": "Increased sales through Google Ads by optimising campaigns on a ROAS bidding strategy.",
+        "achievement3": "Increased overall new user traffic and acquisitions by shifting the marketing budget towards upper funnel activity within channels such as Paid Social and Display.",
         "company": "Ocado (Fetch - Specility Stores Ltd)",
         "date": "Apr 2018 - Oct 2021",
         "p1": "In this role I managed the acquisition strategy and optimisation of all paid media channels including Google ads, affiliate marketing and paid social (Facebook/Instagram). Within this role I utilised my frontend development skills to build HTML email templates, display banners using CSS animation and Javascript for implementing tracking tags via Google tag manager.",
@@ -30,9 +30,9 @@
         "title": "Performance Marketing Manager"
     },
     "item4": {
-        "achievemnt1": "Improved customer engagement by developing mobile friendly responsive HTML email templates.",
-        "achievemnt2": "Successfully developed and executed numerous PPC campaigns and optimised their performance to achieve a greater ROI.",
-        "achievemnt3": "Contributed to the set up and management of a new blog to improve SEO.",
+        "achievement1": "Improved customer engagement by developing mobile friendly responsive HTML email templates.",
+        "achievement2": "Successfully developed and executed numerous PPC campaigns and optimised their performance to achieve a greater ROI.",
+        "achievement3": "Contributed to the set up and management of a new blog to improve SEO.",
         "company": "A2Dominion (FABRICA)",
         "date": "Sept 2015 - Sept 2017",
         "p1": "At FABRICA I managed the acquisition channels within the digital team. This involved building HTML email templates, working with frontend developers to create new landing pages and improving the company websites SEO.",
@@ -40,9 +40,9 @@
         "title": "Digital Marketing Executive"
     },
     "item5": {
-        "achievemnt1": "",
-        "achievemnt2": "",
-        "achievemnt3": "",
+        "achievement1": "",
+        "achievement2": "",
+        "achievement3": "",
         "company": "Work.Life",
         "date": "Sept 2017 - Apr 2018",
         "p1": "Developed the strategy and execution of Work.Life’s content and performance marketing channels. During my time at Work.Life I successfully managed the development of a new company website, which involved project managing a team of frontend developers and ensuring the website was optimised from a technical SEO point of view.",

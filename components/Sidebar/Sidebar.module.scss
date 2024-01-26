@@ -2,11 +2,8 @@
 @import 'Styles/color.scss';
 
 .container {
-  // background-color: $lighter-gray;
-  // border-bottom: 1px solid $primary-darker-green;
   border-right: 1px solid $primary-darker-green;
   padding: $space-sm;
-  // border-top-right-radius: $space-xs;
   align-self: start; 
 
   h5 {

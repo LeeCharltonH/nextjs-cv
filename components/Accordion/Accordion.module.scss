@@ -1,0 +1,33 @@
+@import 'Styles/spacing.scss';
+@import 'Styles/color.scss';
+
+.wrapper {
+  border-right: 1px solid $primary-darker-green;
+  border-bottom: 1px solid $primary-darker-green;
+  width: 100%;
+  padding: $space-xs $space-xs $space-xs 0;
+  display: flex;
+  flex-direction: column;
+  margin: $space-lg 0;
+
+  .headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    .title {
+      text-align: left;
+
+      .date {
+        margin: 0;
+      }
+    }
+  }
+
+  .bodyContainer {
+    margin-top: $space-sm;
+  }
+}
