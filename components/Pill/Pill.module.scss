@@ -1,10 +1,26 @@
 @import 'Styles/spacing.scss';
 @import 'Styles/color.scss';
+@import 'Styles/typography.scss';
 
-.container {
+.primary {
   background-color: $primary-darker-green;
   color: $secondary-light-peach;
+}
+
+.secondary {
+  background-color: $primary-light-green;
+  color: $secondary-lighter-peach;
+}
+
+.regular {
   padding: $space-xs;
   border-top-right-radius: $space-xs;
   margin: $space-sm 0;
+}
+
+.small {
+  padding: $space-xs;
+  border-radius: $space-xs;
+  margin: $space-sm 0;
+  font-size: $text-xs;
 }

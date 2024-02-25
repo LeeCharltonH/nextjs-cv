@@ -1,9 +1,13 @@
+import classNames from 'classnames';
 import styles from './Pill.module.scss';
+import { PillProps } from './Pill.types';
 
-interface PillProps {
-  text: string;
-}
-
-export const Pill = ({ text }: PillProps) => {
-	return <div className={styles.container}>{text}</div>;
-};
+export const Pill = ({
+	text,
+	size = 'regular',
+	variant = 'primary'
+}: PillProps) => (
+	<div className={classNames(styles[size], styles[variant])}>
+		{text}
+	</div>
+);
