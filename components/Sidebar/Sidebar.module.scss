@@ -1,22 +1,58 @@
 @import 'Styles/spacing.scss';
 @import 'Styles/color.scss';
 
-.container {
+.wrapper {
   border-right: 1px solid $primary-darker-green;
   padding: $space-sm;
-  align-self: start; 
+  align-self: start;
+  height: 560px;
+  position: relative; 
+  width: 262px;
 
-  h5 {
-    margin: $space-md 0;
+  &.hide {
+    width: $space-lg;
+  }
+  transition: width 0.6s ease-in;
+
+  .arrow {
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
   }
 
-  ul {
-    list-style-type: none;
-    margin-right: $space-md;
-    
-    li {
-      padding-bottom: $space-sm;
+  .container {
+    &.hide {
+      opacity: 0;
+      animation-name: fadeOut;
+      animation-duration: 0.3s;
+
+      @keyframes fadeOut {
+        0% { opacity: 100; }
+        100% { opacity: 0; }
+      }
+    }
+    opacity: 100;
+    animation-name: fadeIn;
+    animation-duration: 0.6s;
+
+     @keyframes fadeIn {
+        0% { opacity: 0; }
+        75% { opacity: 0;}
+        100% { opacity: 100; }
+      }
+
+    h5 {
+      margin: $space-md 0;
     }
 
+    ul {
+      list-style-type: none;
+      margin-right: $space-md;
+      
+      li {
+        padding-bottom: $space-sm;
+      }
+
+    }
   }
 }

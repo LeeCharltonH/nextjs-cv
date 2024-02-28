@@ -1,5 +1,4 @@
 import { MetaTags } from 'Components/Layout/MetaTags/MetaTags';
-import { PageComposer } from 'Components/Layout/PageComposer/PageComposer';
 import { getKeySkills } from 'Services/api/keySkills';
 import { GetStaticProps, InferGetStaticPropsType } from 'next';
 import { Homepage } from 'Components/Pages/Homepage/Homepage';
@@ -16,9 +15,7 @@ export default function Styles({keySkills}: InferGetStaticPropsType<typeof getSt
 	return (
 		<>
 			<MetaTags />
-			<PageComposer>
-				<Homepage keySkills={keySkills} />
-			</PageComposer>
+			<Homepage keySkills={keySkills} />
 		</>
 	);
 }

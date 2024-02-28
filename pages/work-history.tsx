@@ -2,7 +2,6 @@ import type { InferGetStaticPropsType, GetStaticProps } from 'next';
 
 import { WorkHistoryPage} from 'Components/Pages/WorkHistory/WorkHistory';
 import { MetaTags } from 'Components/Layout/MetaTags/MetaTags';
-import { PageComposer } from 'Components/Layout/PageComposer/PageComposer';
 import { getWorkHistory } from 'Services/api/workHistory';
 
 export const getStaticProps = (async () => {
@@ -16,9 +15,7 @@ export const getStaticProps = (async () => {
 const WorkHistory = ({ workHistory }: InferGetStaticPropsType<typeof getStaticProps>) => (
 	<>
 		<MetaTags />
-		<PageComposer>
-			<WorkHistoryPage content={workHistory.data} />
-		</PageComposer>
+		<WorkHistoryPage content={workHistory.data} />
 	</>
 );
 

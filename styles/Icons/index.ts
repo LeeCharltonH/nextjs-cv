@@ -4,6 +4,7 @@ import { CiLinkedin } from 'react-icons/ci';
 import { AiFillGithub } from 'react-icons/ai';
 import { SiMinutemailer } from 'react-icons/si';
 import { MdExpandLess, MdOutlineExpandMore  } from 'react-icons/md';
+import { RxDoubleArrowLeft, RxDoubleArrowRight } from 'react-icons/rx';
 
 export {
 	FaLocationDot,
@@ -13,4 +14,6 @@ export {
 	CiLinkedin,
 	AiFillGithub,
 	SiMinutemailer,
+	RxDoubleArrowLeft,
+	RxDoubleArrowRight,
 };
