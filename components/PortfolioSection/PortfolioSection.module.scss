@@ -6,6 +6,10 @@
 	margin: $space-md 0;
 	display: flex;
 	gap: $space-sm;
+
+	@include max-tablet-device {
+		flex-direction: column;
+	}
 	
 	&.imageLeft {
 		flex-direction: wrap;
@@ -13,6 +17,10 @@
 
 	&.imageRight {
 		flex-direction: row-reverse;
+
+		@include max-tablet-device {
+			flex-direction: column;
+		}
 	}
 
 	.item {
@@ -20,6 +28,10 @@
 		flex-direction: column;
 		justify-content: space-around;
 		width: 50%;
+
+		@include max-tablet-device {
+			width: 100%;
+		}
 
 		img {
 			width: 100%;
