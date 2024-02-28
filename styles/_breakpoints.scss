@@ -2,20 +2,38 @@ $mobile: 480px;
 $tablet: 768px;
 $desktop: 1024px;
 
-@mixin mobile-device {
+@mixin min-mobile-device {
+  @media (min-width: $mobile) {
+      @content;
+  }
+}
+
+@mixin max-mobile-device {
   @media (max-width: $mobile) {
       @content;
   }
 }
 
-@mixin tablet-device {
+@mixin min-tablet-device {
+  @media (min-width: $tablet) {
+      @content;
+  }
+}
+
+@mixin max-tablet-device {
   @media (max-width: $tablet) {
       @content;
   }
 }
 
-@mixin desktop-device {
+@mixin min-desktop-device {
   @media (min-width: $desktop) {
+      @content;
+  }
+}
+
+@mixin max-desktop-device {
+  @media (max-width: $desktop) {
       @content;
   }
 }

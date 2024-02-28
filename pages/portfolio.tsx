@@ -1,27 +1,26 @@
 import { MetaTags } from 'Components/Layout/MetaTags/MetaTags';
 import { PageComposer } from 'Components/Layout/PageComposer/PageComposer';
+import { PortfolioPage } from 'Components/Pages/Portfolio/PortfolioPage';
 import { getPortfolio } from 'Services/api/portfolio';
+import { PortfolioItem } from 'Types/portfolio';
 import { GetStaticProps, InferGetStaticPropsType } from 'next';
 
 
 export const getStaticProps = (async () => {
-	const portfolio = await getPortfolio();
+	const portfolioItems = await getPortfolio();
 	
-	return { props: { portfolio } };
+	return { props: { portfolioItems } };
 }) satisfies GetStaticProps<{
-	portfolio: string;
+	portfolioItems: Record<string, PortfolioItem[]>;
 }>;
 
-const Portfolio = ({ portfolio }: InferGetStaticPropsType<typeof getStaticProps>) => {
-	console.log({portfolio: portfolio.data});
-	return (
-		<>
-			<MetaTags />
-			<PageComposer>
-				Portfolio
-			</PageComposer>
-		</>
-	);
-};
+const Portfolio = ({ portfolioItems }: InferGetStaticPropsType<typeof getStaticProps>) => (
+	<>
+		<MetaTags />
+		<PageComposer>
+			<PortfolioPage portfolioItems={portfolioItems.data} />
+		</PageComposer>
+	</>
+);
 
 export default Portfolio;

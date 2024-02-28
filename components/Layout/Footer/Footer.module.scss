@@ -16,7 +16,7 @@
   height: $space-xxl * 1.6;
 
   .container {
-    @include desktop-device {
+    @include min-desktop-device {
       max-width: $desktop;
     }
 

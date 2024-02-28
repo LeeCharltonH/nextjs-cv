@@ -13,19 +13,14 @@ export const getStaticProps = (async () => {
 	workHistory: string;
 }>;
 
-const WorkHistory = ({ workHistory }: InferGetStaticPropsType<typeof getStaticProps>) => {
-	console.log({workHistory: workHistory.data });
-
-	return (
-		<>
-			<MetaTags />
-			<PageComposer>
-				<WorkHistoryPage content={workHistory.data} />
-			</PageComposer>
-		</>
-	);
-};
-
+const WorkHistory = ({ workHistory }: InferGetStaticPropsType<typeof getStaticProps>) => (
+	<>
+		<MetaTags />
+		<PageComposer>
+			<WorkHistoryPage content={workHistory.data} />
+		</PageComposer>
+	</>
+);
 
 export default WorkHistory;
 

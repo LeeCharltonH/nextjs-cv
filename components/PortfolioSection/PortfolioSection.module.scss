@@ -1,0 +1,33 @@
+@import 'Styles/spacing.scss';
+@import 'Styles/color.scss';
+@import 'Styles/breakpoints.scss';
+
+.wrapper {
+	margin: $space-md 0;
+	display: flex;
+	gap: $space-sm;
+	
+	&.imageLeft {
+		flex-direction: wrap;
+	}
+
+	&.imageRight {
+		flex-direction: row-reverse;
+	}
+
+	.item {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		width: 50%;
+
+		img {
+			width: 100%;
+		}
+	}
+	
+	.skillList {
+		display: flex;
+		gap: $space-xxs;
+	}
+}

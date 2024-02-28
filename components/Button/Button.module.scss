@@ -1,0 +1,22 @@
+@import 'Styles/spacing.scss';
+@import 'Styles/typography.scss';
+@import 'Styles/color.scss';
+
+
+.button {
+  padding: $space-sm $space-md;
+  border-style: solid;
+  border-color: $dark-gray;
+  border-width: 1px;
+  background-color: transparent;
+  border-radius: $space-xxs;
+  color: $light-gray;
+  font-size: $text-sm;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+
+  &:hover {
+    background-color: $dark-gray;
+    color: $secondary-lighter-peach;
+  }
+}

@@ -14,7 +14,7 @@
 	}
 	
 	
-	@include desktop-device {
+	@include min-desktop-device {
 		max-width: $desktop;
 		padding: $space-lg 0;
   }
