@@ -17,9 +17,13 @@
     align-items: center;
     width: 100%;
 
-  @include min-desktop-device {
-    width: $desktop;
-  }
+    @include max-mobile-device {
+      padding: $space-sm 0;
+    }
+
+    @include min-desktop-device {
+      width: $desktop;
+    }
 
     h1 {
       font-size: $text-lg;
@@ -32,9 +36,18 @@
       display: flex;
       height: 100%;
 
+      @include max-mobile-device {
+        flex-direction: column;
+        gap: $space-sm;
+      }
+
       li {
         padding-left: $space-sm;
         height: 100%;
+         
+        @include max-mobile-device {
+          text-align: right;
+        }
 
         &:hover {
           color: $secondary-light-peach;
