@@ -1,6 +1,6 @@
 import { MetaTags } from 'Components/Layout/MetaTags/MetaTags';
 import { getKeySkills } from 'Services/api/keySkills';
-import { GetStaticProps, InferGetStaticPropsType } from 'next';
+import { GetStaticProps } from 'next';
 import { Homepage } from 'Components/Pages/Homepage/Homepage';
 
 export const getStaticProps = (async () => {
@@ -11,11 +11,11 @@ export const getStaticProps = (async () => {
 	keySkills: string[];
 }>;
 
-export default function Styles({keySkills}: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function Styles() {
 	return (
 		<>
 			<MetaTags />
-			<Homepage keySkills={keySkills} />
+			<Homepage />
 		</>
 	);
 }
