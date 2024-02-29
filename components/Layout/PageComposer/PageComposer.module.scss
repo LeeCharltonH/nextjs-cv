@@ -11,6 +11,11 @@
 	.container {
 		display: flex;
 		gap: $space-lg;
+
+		@include max-mobile-device {
+			flex-direction: column;
+			gap: $space-md
+		}
 	}
 	
 	

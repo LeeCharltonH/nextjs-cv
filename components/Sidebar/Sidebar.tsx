@@ -23,6 +23,32 @@ const contactDetails = [
 
 const skills = ['CSS', 'HTML', 'Javascript', 'React', 'NextJS'];
 
+export const ContactDetailsSection = () => (
+	<>
+		<h5 className={styles.heading}>Contact details</h5>
+		<ul className={styles.contactDetailsList}>
+			{contactDetails.map((contactdetail, index) => <li key={index}><TextWithIcon icon={contactdetail.icon} text={contactdetail.text} /></li>)}
+		</ul>
+	</>
+);
+
+export const SocialsSection = () => (
+	<>
+		<h5 className={styles.heading}>Socials</h5>
+		<Socials version='dark' />
+	</>
+);
+
+export const KeySkillsSection = () => (
+	<>
+		<h5 className={styles.heading}>Key skills</h5>
+		<div className={styles.keySkills}>
+			{skills.map((item, index) => <Pill key={index} text={item} />)}
+		</div>
+	</>
+);
+
+
 export const Sidebar = () => {
 	const [isHidden, setIsHidden] = useState(false);
 
@@ -36,14 +62,9 @@ export const Sidebar = () => {
 			[styles.hide]: isHidden,
 		}
 		)}>
-			<h5>Contact details</h5>
-			<ul>
-				{contactDetails.map((contactdetail, index) => <li key={index}><TextWithIcon icon={contactdetail.icon} text={contactdetail.text} /></li>)}
-			</ul>
-			<h5>Socials</h5>
-			<Socials version='dark' />
-			<h5>Key skills</h5>
-			{skills.map((item, index) => <Pill key={index} text={item} />)}
+			<ContactDetailsSection />
+			<SocialsSection />
+			<KeySkillsSection />
 		</div>
 	</aside>;
 };

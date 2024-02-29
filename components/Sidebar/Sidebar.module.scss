@@ -1,5 +1,7 @@
 @import 'Styles/spacing.scss';
 @import 'Styles/color.scss';
+@import 'Styles/breakpoints.scss';
+@import 'Styles/typography.scss';
 
 .wrapper {
   border-right: 1px solid $primary-darker-green;
@@ -39,20 +41,35 @@
         0% { opacity: 0; }
         75% { opacity: 0;}
         100% { opacity: 100; }
-      }
-
-    h5 {
-      margin: $space-md 0;
-    }
-
-    ul {
-      list-style-type: none;
-      margin-right: $space-md;
-      
-      li {
-        padding-bottom: $space-sm;
-      }
-
-    }
+      }  
   }
 }
+
+.contactDetailsList {
+  list-style-type: none;
+  margin-right: $space-md;
+      
+  li {
+    padding-bottom: $space-sm;
+  }
+}
+
+.keySkills {
+  display: flex;
+  flex-direction: column;
+  gap: $space-sm;
+
+  @include max-mobile-device {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.heading {
+  margin: $space-md 0;
+
+  @include max-mobile-device {
+    margin: 0;
+    font-size: $text-md;
+  }
+}  
