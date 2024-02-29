@@ -1,0 +1,1 @@
+export const replaceText = (string: string, find: string, replace: string) => string.replace(find, replace);

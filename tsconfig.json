@@ -18,7 +18,9 @@
       "Components/*": ["./components/*"],
       "Styles/*": ["./styles/*"],
       "Services/*": ["./services/*"],
-      "Types/*": ["./types/*"]
+      "Types/*": ["./types/*"],
+      "Hooks/*": ["./hooks/*"],
+      "Helpers/*": ["./helpers/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

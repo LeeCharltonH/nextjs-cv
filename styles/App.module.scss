@@ -1,3 +1,5 @@
+@import './breakpoints';
+
 .container {
   background-color:rgba(255, 236, 229, 0.5);
   position: relative;
@@ -8,3 +10,8 @@
   flex-direction: column;
 }
 
+:export {
+  mobileBreakpoint: $mobile;
+  tabletBreakpoint: $tablet;
+  desktopBreakpoint: $desktop;
+}
