@@ -21,7 +21,7 @@ const contactDetails = [
 	},
 ];
 
-const skills = ['CSS', 'HTML', 'Javascript', 'React', 'NextJS'];
+const skills = ['Next.js', 'React', 'Typescript', 'Javascript', 'CSS', 'HTML', 'Sass', 'Jest', 'Cypress', 'Datadog', 'Git'];
 
 export const ContactDetailsSection = () => (
 	<>

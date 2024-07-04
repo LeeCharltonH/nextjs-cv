@@ -4,7 +4,7 @@ const keySkillsHandler = (
 	req: NextApiRequest,
 	res: NextApiResponse
 ) => {
-	const skills = ['CSS', 'HTML', 'Javascript', 'React', 'NextJS'];
+	const skills = ['Next.js', 'React', 'Typescript', 'Javascript', 'CSS', 'HTML'];
 
 	res.status(200).json({ data: skills });
 };

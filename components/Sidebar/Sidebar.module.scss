@@ -55,14 +55,9 @@
 }
 
 .keySkills {
-  display: flex;
-  flex-direction: column;
-  gap: $space-sm;
-
-  @include max-mobile-device {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
 }
 
 .heading {
