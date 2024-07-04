@@ -63,7 +63,7 @@ const portfolioItems = [
 const portfolioHandler = ( 
 	req: NextApiRequest,
 	res: NextApiResponse
-) => res.status(200).json(portfolioItems);
+) => res.status(200).json({ data: portfolioItems });
 
 export default portfolioHandler;
 

@@ -6,7 +6,7 @@ const keySkillsHandler = (
 ) => {
 	const skills = ['Next.js', 'React', 'Typescript', 'Javascript', 'CSS', 'HTML'];
 
-	res.status(200).json(skills);
+	res.status(200).json({ data: skills });
 };
 
 export default keySkillsHandler;

@@ -6,7 +6,8 @@ const workHistoryHandler = (
 	req: NextApiRequest,
 	res: NextApiResponse
 ) => {
-	res.status(200).json(workHistory);
+
+	res.status(200).json({ data: workHistory });
 };
 
 export default workHistoryHandler;
