@@ -1,4 +1,4 @@
-import styles from './portfolioPage.module.scss';
+import styles from './PortfolioPage.module.scss';
 import { MDText } from 'i18n-react';
 import texts from 'Components/texts.json';
 import { PortfolioSection } from 'Components/PortfolioSection/PortfolioSection';
