@@ -9,20 +9,20 @@ import { WorkHistoryItem } from 'Types/workHistory';
 const AccordionHeader = ({ onClick, expanded, company, title, date }: AccordionHeaderProps) =>
 	(<button className={styles.headerContainer} onClick={() => onClick((state) => !state)}>
 		<div className={styles.title}>
-			<h3>{title}</h3>
-			<p>{company}</p>
+			<h3>{company}</h3>
+			<p>{title}</p>
 			<p className={styles.date}>{date}</p>
 		</div>
 		{expanded ? <MdExpandLess size='25px' /> : <MdOutlineExpandMore size='25px' />}
 	</button>);
 
-const AccordionBody = ({ p1, p2, achievement1, achievement2, achievement3 }: AccordionBodyProps) => {
+const AccordionBody = ({ description, achievement1, achievement2, achievement3 }: AccordionBodyProps) => {
 	const list = [{ achievement1 }, { achievement2 }, { achievement3 }];
 	const hasAchievements = Boolean(achievement1);
+	const paragraphs = description.split('\n');
 
 	return <div className={styles.bodyContainer}>
-		<p>{p1}</p>
-		{p2 && <p>{p2}</p>}
+		{paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
 
 		{hasAchievements && (
 			<>
@@ -39,7 +39,7 @@ interface AccordionProps {
 
 export const Accordion = ({ content }: AccordionProps) => {
 	const [expanded, setExpanded] = useState(false);
-	const { company, date, p1, p2, title, achievement1, achievement2, achievement3  } = content;
+	const { company, date, description, title, achievement1, achievement2, achievement3  } = content;
 	
 	return <section className={styles.wrapper}>
 		<AccordionHeader
@@ -50,8 +50,7 @@ export const Accordion = ({ content }: AccordionProps) => {
 			title={title}
 		/>
 		{expanded && <AccordionBody
-			p1={p1}
-			p2={p2}
+			description={description}
 			achievement1={achievement1}
 			achievement2={achievement2}
 			achievement3 ={achievement3 }

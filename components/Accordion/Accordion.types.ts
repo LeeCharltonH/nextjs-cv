@@ -1,8 +1,7 @@
 import { Dispatch, SetStateAction } from 'react';
 
 export interface AccordionBodyProps {
-  p1: string;
-  p2: string | undefined;
+  description: string;
   achievement1: string | undefined;
   achievement2: string | undefined;
   achievement3: string | undefined;

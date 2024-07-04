@@ -1,8 +1,7 @@
 export type WorkHistoryItem = {
   company: string;
   date: string;
-  p1: string;
-  p2?: string;
+  description: string;
   title: string;
   achievement1?: string;
   achievement2?: string;
@@ -16,6 +15,5 @@ export type WorkExperienceAccordionBody = Pick<
     'achievement1' 
     | 'achievement2'
     | 'achievement3'
-    | 'p1'
-    | 'p2'
+    | 'description'
   >;

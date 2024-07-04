@@ -1,52 +1,32 @@
 {
     "item1": {
-        "achievement1": "Successfully launched several react web applications for numerous clients.",
-        "achievement2": "Designed and developed web pages to client specifications.",
-        "achievement3": "Provided marketing support to set up analytics tracking across client websites.",
-        "company": "Self Employed",
-        "date": "Nov 2021 - Present",
-        "p1": "Following a career change I've been working freelance as a frontend web developer. In this time I've worked with multiple clients across different industries, including Personal Services and Healthcare professionals.",
-        "p2": "",
-        "title": "Front End Developer"
+        "company": "Motorway",
+        "date": "June 2022 - Present",
+        "description": "The main tech stack used for this role includes Next.js, Javascript/Typescript, React, Scss and HTML. Alongside this I’m experienced in writing unit and E2E tests using libraries such as Jest and Cypress.\n I’ve also gained experience in backend technologies, developing APIs, working with databases and using terraform to build severless architectures. Working with serverless technologies I’ve gained experience in working with several AWS services including Lambda’s, API Gateway and Event bridge.\nFamiliar with using observability tools such as Datadog to monitor and debug the performance of software. I regularly use datadog to review new bugs and look for performance optimisations.\nAlongside technical skills I’ve demonstrated strong organisation and communication skills. Working within an agile team, I understand how to break down features into iterable stories that deliver value to both the company and our customers efficiently.\nJoining as a junior frontend engineer, I have consistently displayed strong technical skills and delivered high quality code which resulted in being promoted to mid level frontend engineer within 2 years.\nWithin the first 6 months of the role I took on my first position as project lead, which was delivered in record time. This required strong leadership and communication skills to deliver, by collaborating with technical leads to plan the project.",
+        "title": "Frontend Engneer"
     },
     "item2": {
-        "achievement1": "Completed the Front End Development Course with The Learning people and React course with Udemy.",
-        "achievement2": "Developed a fully functional pairs game using ES6 standard javascript, HTML5 and CSS3.",
-        "achievement3": "Completed my first client project for Bear Ambition personal training using React.",
-        "company": "The Learning People | Udemy (Student)",
-        "date": "Nov 2021 - Feb 2022",
-        "p1": "With The Learning People I developed a solid understanding of frontend development technologies, including: HTML5, CSS3, Javascript (ES6) and Git version control. This course introduced me to popular frameworks which led me onto studying React with Udemy. Throughout this period I developed various single page React web applications, utilising HTML, CSS, Javascript and APIs.",
-        "p2": "",
-        "title": "Front End Developer"
+        "company": "Career change",
+        "date": "November 2021 - May 2022",
+        "description": "During this period I decided to commit to studying web development to prepare for a career change. Having previously worked in various digital marketing roles, I had gained experience in web development and acquired a strong interest in this area. Eventually I made the decision to pursue a more fulfilling career, switching from marketing to frontend engineering.\nI enrolled on a frontend development course with a company called The Learning People in 2021, which focussed on the core technologies of web development, including: HTML5, CSS and Javascript. This course also covered git version control.\nFollowing this course, I was introduced to various popular frameworks and decided to complete a course in React with Udemy. After gaining these technical skills I regularly practiced by working on personal projects, some of which can be viewed on my digital CV.",
+        "title": "Frontend Engineer - Student"
     },
     "item3": {
-        "achievement1": "Improved user engagement of our paid media banners by conducting AB tests. I achieved this by developing various HTML banners with CSS animation to find the optimal design.",
-        "achievement2": "Increased sales through Google Ads by optimising campaigns on a ROAS bidding strategy.",
-        "achievement3": "Increased overall new user traffic and acquisitions by shifting the marketing budget towards upper funnel activity within channels such as Paid Social and Display.",
-        "company": "Ocado (Fetch - Specility Stores Ltd)",
-        "date": "Apr 2018 - Oct 2021",
-        "p1": "In this role I managed the acquisition strategy and optimisation of all paid media channels including Google ads, affiliate marketing and paid social (Facebook/Instagram). Within this role I utilised my frontend development skills to build HTML email templates, display banners using CSS animation and Javascript for implementing tracking tags via Google tag manager.",
-        "p2": "",
+        "company": "Ocado Retail LTD",
+        "date": "April 2018 – October 2021",
+        "description": "I joined the company as a PPC specialist, but within 1 year of joining I had acquired the responsibilities of managing a multi channel acquisition strategy. I was promoted from PPC specialist to performance marketing manager during my time at Ocado, leading on the acquisition of new customers through our digital platforms including PPC, display marketing, affiliate and paid social channels.",
         "title": "Performance Marketing Manager"
     },
     "item4": {
-        "achievement1": "Improved customer engagement by developing mobile friendly responsive HTML email templates.",
-        "achievement2": "Successfully developed and executed numerous PPC campaigns and optimised their performance to achieve a greater ROI.",
-        "achievement3": "Contributed to the set up and management of a new blog to improve SEO.",
-        "company": "A2Dominion (FABRICA)",
-        "date": "Sept 2015 - Sept 2017",
-        "p1": "At FABRICA I managed the acquisition channels within the digital team. This involved building HTML email templates, working with frontend developers to create new landing pages and improving the company websites SEO.",
-        "p2": "",
-        "title": "Digital Marketing Executive"
+        "company": "Work.Life",
+        "date": "August 2017 – March 2018",
+        "description": "Developed the strategy and execution of Work.Life’s content and performance marketing channels. During my time at Work.Life I successfully managed the development of a new company website, which involved working collaboratively with a team of frontend developers and ensuring the website was optimised from a technical SEO point of view.",
+        "title": "Senior Digital Marketing Executive"
     },
     "item5": {
-        "achievement1": "",
-        "achievement2": "",
-        "achievement3": "",
-        "company": "Work.Life",
-        "date": "Sept 2017 - Apr 2018",
-        "p1": "Developed the strategy and execution of Work.Life’s content and performance marketing channels. During my time at Work.Life I successfully managed the development of a new company website, which involved project managing a team of frontend developers and ensuring the website was optimised from a technical SEO point of view.",
-        "p2": "",
-        "title": "Senior Marketing Executive"
+        "company": "FABRICA",
+        "date": "October 2015 –  August 2017",
+        "description": "At FABRICA I managed the acquisition channels within the digital team. This involved building HTML email templates, working collaboratively with frontend developers to create new landing pages and improving the company websites SEO.",
+        "title": "Digital Marketing Executive"
     }
 }
