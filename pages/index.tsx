@@ -4,9 +4,9 @@ import { GetStaticProps } from 'next';
 import { Homepage } from 'Components/Pages/Homepage/Homepage';
 
 export const getStaticProps = (async () => {
-	const {data} = await getKeySkills();
+	const skills = await getKeySkills();
 	
-	return { props: { keySkills: data } };
+	return { props: skills };
 }) satisfies GetStaticProps<{
 	keySkills: string[];
 }>;
