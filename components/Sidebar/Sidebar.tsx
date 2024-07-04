@@ -27,7 +27,7 @@ export const ContactDetailsSection = () => (
 	<>
 		<h5 className={styles.heading}>Contact details</h5>
 		<ul className={styles.contactDetailsList}>
-			{contactDetails.map((contactdetail, index) => <li key={index}><TextWithIcon icon={contactdetail.icon} text={contactdetail.text} /></li>)}
+			{contactDetails?.map((contactdetail, index) => <li key={index}><TextWithIcon icon={contactdetail.icon} text={contactdetail.text} /></li>)}
 		</ul>
 	</>
 );

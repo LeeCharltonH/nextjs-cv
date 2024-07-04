@@ -21,6 +21,6 @@ export const WorkHistoryPage = ({ content }: WorkHistoryPageProps) => {
 
 	return <div className={styles.container}>
 		<h2>{T.translate('workHistory.heading')}</h2>
-		{workHistoryData.map((item, index) => <Accordion key={index} content={item} />)}
+		{workHistoryData?.map((item, index) => <Accordion key={index} content={item} />)}
 	</div>;
 };

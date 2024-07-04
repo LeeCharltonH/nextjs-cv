@@ -13,6 +13,6 @@ interface PortfolioPageProps {
 export const PortfolioPage = ({ portfolioItems }: PortfolioPageProps) => (
 	<div className={styles.container}>
 		<h2>{T.translate('portfolio.heading')}</h2>
-		{portfolioItems.map((item, index) => <PortfolioSection index={index} portfolioItem={item} key={index} />)}
+		{portfolioItems?.map((item, index) => <PortfolioSection index={index} portfolioItem={item} key={index} />)}
 	</div>
 );
