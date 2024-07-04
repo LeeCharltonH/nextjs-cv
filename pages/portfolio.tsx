@@ -4,7 +4,6 @@ import { getPortfolio } from 'Services/api/portfolio';
 import { PortfolioItem } from 'Types/portfolio';
 import { GetStaticProps, InferGetStaticPropsType } from 'next';
 
-
 export const getStaticProps = (async () => {
 	const portfolioItems = await getPortfolio();
 	
@@ -15,7 +14,7 @@ export const getStaticProps = (async () => {
 
 const Portfolio = ({ portfolioItems }: InferGetStaticPropsType<typeof getStaticProps>) => (
 	<>
-		<MetaTags />
+		<MetaTags title='Lee Hassall - Portfolio' description='A CV website to showcase my skills as a frontend engineer. Browse portfolio items.' />
 		<PortfolioPage portfolioItems={portfolioItems.data} />
 	</>
 );

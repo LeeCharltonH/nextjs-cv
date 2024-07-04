@@ -14,7 +14,7 @@ export const getStaticProps = (async () => {
 
 const WorkHistory = ({ workHistory }: InferGetStaticPropsType<typeof getStaticProps>) => (
 	<>
-		<MetaTags />
+		<MetaTags title='Lee Hassall - Work History' description='A CV website to showcase my skills as a frontend engineer. Browse work history.' />
 		<WorkHistoryPage content={workHistory.data} />
 	</>
 );

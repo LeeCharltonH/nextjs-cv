@@ -1,9 +1,14 @@
 import Head from 'next/head';
 
-export const MetaTags = () => (
+interface MetaTagsProps {
+	title: string;
+	description: string;
+}
+
+export const MetaTags = ({ title, description}: MetaTagsProps) => (
 	<Head>
-		<title>Lee Hassall</title>
-		<meta name="description" content="Lee Hassall" />
+		<title>{title}</title>
+		<meta name={description} content="Lee Hassall" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="icon" href="/favicon.ico" />
 	</Head>

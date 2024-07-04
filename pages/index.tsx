@@ -14,7 +14,7 @@ export const getStaticProps = (async () => {
 export default function Styles() {
 	return (
 		<>
-			<MetaTags />
+			<MetaTags title='Lee Hassall - Frontend Engineer' description='A CV website to showcase my skills as a frontend engineer' />
 			<Homepage />
 		</>
 	);

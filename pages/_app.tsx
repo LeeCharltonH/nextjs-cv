@@ -1,5 +1,3 @@
-import { MetaTags } from 'Components/Layout/MetaTags/MetaTags';
-
 import type { AppProps } from 'next/app';
 import styles from '../styles/App.module.scss';
 import 'Styles/globals.scss';
@@ -10,7 +8,6 @@ export const App = ({ Component, pageProps }: AppProps) => {
 	const { isMobile } = useIsDeviceSize();
 
 	return <div className={styles.container}>
-		<MetaTags />
 		<PageComposer sidebar={!isMobile}>
 			<Component {...pageProps} />
 		</PageComposer>
