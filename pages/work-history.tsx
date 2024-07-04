@@ -5,7 +5,9 @@ import { MetaTags } from 'Components/Layout/MetaTags/MetaTags';
 import { getWorkHistory } from 'Services/api/workHistory';
 
 export const getStaticProps = (async () => {
-	const workHistory = await getWorkHistory();
+	let workHistory = await getWorkHistory();
+
+	workHistory = JSON.parse(JSON.stringify(workHistory));
 	
 	return { props: { workHistory } };
 }) satisfies GetStaticProps<{

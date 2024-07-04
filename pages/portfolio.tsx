@@ -5,7 +5,9 @@ import { PortfolioItem } from 'Types/portfolio';
 import { GetStaticProps, InferGetStaticPropsType } from 'next';
 
 export const getStaticProps = (async () => {
-	const portfolioItems = await getPortfolio();
+	let portfolioItems = await getPortfolio();
+
+	portfolioItems = JSON.parse(JSON.stringify(portfolioItems));
 	
 	return { props: { portfolioItems } };
 }) satisfies GetStaticProps<{

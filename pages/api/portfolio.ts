@@ -9,7 +9,7 @@ import {
 	problemsAfootPodiatry,
 } from '../../images';
 
-const portfolioItems = [
+export const portfolioItems = [
 	{
 		title: 'E-commerce Mockup',
 		skills: ['React', 'Redux', 'Javascript', 'Scss', 'API'],
