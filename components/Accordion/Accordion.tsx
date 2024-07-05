@@ -7,14 +7,14 @@ import { AccordionBodyProps, AccordionHeaderProps } from './Accordion.types';
 import { WorkHistoryItem } from 'Types/workHistory';
 
 const AccordionHeader = ({ onClick, expanded, company, title, date }: AccordionHeaderProps) =>
-	(<button className={styles.headerContainer} onClick={() => onClick((state) => !state)}>
+	(<div className={styles.headerContainer} onClick={() => onClick((state) => !state)}>
 		<div className={styles.title}>
 			<h3>{company}</h3>
 			<p>{title}</p>
 			<p className={styles.date}>{date}</p>
 		</div>
 		{expanded ? <MdExpandLess size='25px' /> : <MdOutlineExpandMore size='25px' />}
-	</button>);
+	</div>);
 
 const AccordionBody = ({ description, achievement1, achievement2, achievement3 }: AccordionBodyProps) => {
 	const list = [{ achievement1 }, { achievement2 }, { achievement3 }];
