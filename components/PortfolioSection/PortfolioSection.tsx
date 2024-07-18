@@ -3,7 +3,8 @@ import styles from './PortfolioSection.module.scss';
 import { Button } from 'Components/Button/Button';
 import classNames from 'classnames';
 import { PortfolioItem } from 'Types/portfolio';
-
+import Image from 'next/image';
+import { useIsDeviceSize } from 'Hooks/useIsDeviceSize';
 
 interface PortfolioSectionProps {
 	portfolioItem: PortfolioItem,
@@ -12,6 +13,8 @@ interface PortfolioSectionProps {
 
 export const PortfolioSection = ({ portfolioItem, index }: PortfolioSectionProps) => {
 	const shouldFloatImageLeft = index % 2 === 0;
+	const shouldPrioritiseLCP  = index <= 1; 
+	const { isMobile } = useIsDeviceSize();
 
 	return <div className={classNames(
 		styles.wrapper,
@@ -30,10 +33,10 @@ export const PortfolioSection = ({ portfolioItem, index }: PortfolioSectionProps
 				<Button type='button' value='View Project' />
 			</a>
 		</div>
+		{!isMobile && 
 		<div className={styles.item}>
-			<a href={portfolioItem.link} target='_blank' rel="noreferrer">
-				<img src={portfolioItem.image.src} />
-			</a>
+			<Image alt={portfolioItem.title} priority={shouldPrioritiseLCP} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" style={ { objectFit: 'contain' } } src={portfolioItem.image.src} />
 		</div>
+		}
 	</div>;
 };
