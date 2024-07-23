@@ -7,7 +7,6 @@ import {
 	bearAmbitionPersonalTraining,
 	eCommerceMockup,
 	expensesFormReact,
-	javascriptPairsGame,
 	personalPortfolioV1,
 	problemsAfootPodiatry,
 } from '../images';
@@ -33,13 +32,6 @@ const portfolioItemsData = [
 		link: 'https://problems-afoot-58652.web.app/',
 		description: 'Problems Afoot is a podiatry clinic with two locations based in Oxfordshire. This client required a website to display their services, location details and ultimately to convert users to book an appointment.This project utilises many React features including state management, routing and reusable components to display content from an array of objects.The location components make use of Google’s map API to display the location of each surgery.',
 		image: problemsAfootPodiatry,
-	},
-	{
-		title: 'Javascript Pairs Game',
-		skills: ['HTML', 'CSS', 'Javascript'],
-		link: 'https://leecharltonh.github.io/pairs-game/',
-		description: 'An online pairs game in which the user has to find all matching cards in the fastest time and fewest moves.Using vanilla javascript content is dynamically served to the user by interacting with the DOM. The user is able to control several features of the game, such as pausing, restarting and enabling sound. Using ES6 standard javascript the user’s stats are recorded and displayed in the browser accordingly.',
-		image: javascriptPairsGame,
 	},
 	{
 		title: 'Bear Ambition Personal Training',
