@@ -23,6 +23,6 @@
       "Helpers/*": ["./helpers/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "lighthouserc.cjs"],
   "exclude": ["node_modules"]
 }
