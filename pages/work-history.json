@@ -1,29 +1,35 @@
 {
     "item1": {
-        "company": "Motorway",
-        "date": "June 2022 - Present",
-        "description": "The main tech stack used for this role includes Next.js, Javascript/Typescript, React, Scss and HTML. Alongside this I’m experienced in writing unit and E2E tests using libraries such as Jest and Cypress.\n I’ve also gained experience in backend technologies, developing APIs, working with databases and using terraform to build severless architectures. Working with serverless technologies I’ve gained experience in working with several AWS services including Lambda’s, API Gateway and Event bridge.\nFamiliar with using observability tools such as Datadog to monitor and debug the performance of software. I regularly use datadog to review new bugs and look for performance optimisations.\nAlongside technical skills I’ve demonstrated strong organisation and communication skills. Working within an agile team, I understand how to break down features into iterable stories that deliver value to both the company and our customers efficiently.\nJoining as a junior frontend engineer, I have consistently displayed strong technical skills and delivered high quality code which resulted in being promoted to mid level frontend engineer within 2 years.\nWithin the first 6 months of the role I took on my first position as project lead, which was delivered in record time. This required strong leadership and communication skills to deliver, by collaborating with technical leads to plan the project.",
+        "company": "Ascential",
+        "date": "October 2024 - Present",
+        "description": "Worked in an agile team, servicing 8 events websites. Managing the rollout of new products/tech improvements for a next.js application. \nLed an initiative to improve the data fetching strategies for dynamic and statically generated pages. Resulting in more consistent Google indexing to improve SEO and a better user experience. \n Increased testing coverage, by refactoring and writing unit tests for key areas of the website \n Coached junior members of the team, by code reviewing their PRs and pairing on challenging projects. \n Improved the CI/CD by integrating automated testing. Led on a rollout plan to add cypress E2E testing and included unit test coverage in the github workflows for new PRs. \n",
         "title": "Frontend Engneer"
     },
     "item2": {
+        "company": "Motorway",
+        "date": "June 2022 - September 2024",
+        "description": "The main tech stack used for this role includes Next.js, Javascript/Typescript, React, Scss and HTML. Alongside this I’m experienced in writing unit and E2E tests using libraries such as Jest and Cypress.\n I’ve also gained experience in backend technologies, developing APIs, working with databases and using terraform to build severless architectures. Working with serverless technologies I’ve gained experience in working with several AWS services including Lambda’s, API Gateway and Event bridge.\nFamiliar with using observability tools such as Datadog to monitor and debug the performance of software. I regularly use datadog to review new bugs and look for performance optimisations.\nAlongside technical skills I’ve demonstrated strong organisation and communication skills. Working within an agile team, I understand how to break down features into iterable stories that deliver value to both the company and our customers efficiently.\nJoining as a junior frontend engineer, I have consistently displayed strong technical skills and delivered high quality code which resulted in being promoted to mid level frontend engineer within 2 years.\nWithin the first 6 months of the role I took on my first position as project lead, which was delivered in record time. This required strong leadership and communication skills to deliver, by collaborating with technical leads to plan the project.",
+        "title": "Frontend Engneer"
+    },
+    "item3": {
         "company": "Career change",
         "date": "November 2021 - May 2022",
         "description": "During this period I decided to commit to studying web development to prepare for a career change. Having previously worked in various digital marketing roles, I had gained experience in web development and acquired a strong interest in this area. Eventually I made the decision to pursue a more fulfilling career, switching from marketing to frontend engineering.\nI enrolled on a frontend development course with a company called The Learning People in 2021, which focussed on the core technologies of web development, including: HTML5, CSS and Javascript. This course also covered git version control.\nFollowing this course, I was introduced to various popular frameworks and decided to complete a course in React with Udemy. After gaining these technical skills I regularly practiced by working on personal projects, some of which can be viewed on my digital CV.",
         "title": "Frontend Engineer - Student"
     },
-    "item3": {
+    "item4": {
         "company": "Ocado Retail LTD",
         "date": "April 2018 – October 2021",
         "description": "I joined the company as a PPC specialist, but within 1 year of joining I had acquired the responsibilities of managing a multi channel acquisition strategy. I was promoted from PPC specialist to performance marketing manager during my time at Ocado, leading on the acquisition of new customers through our digital platforms including PPC, display marketing, affiliate and paid social channels.",
         "title": "Performance Marketing Manager"
     },
-    "item4": {
+    "item5": {
         "company": "Work.Life",
         "date": "August 2017 – March 2018",
         "description": "Developed the strategy and execution of Work.Life’s content and performance marketing channels. During my time at Work.Life I successfully managed the development of a new company website, which involved working collaboratively with a team of frontend developers and ensuring the website was optimised from a technical SEO point of view.",
         "title": "Senior Digital Marketing Executive"
     },
-    "item5": {
+    "item6": {
         "company": "FABRICA",
         "date": "October 2015 –  August 2017",
         "description": "At FABRICA I managed the acquisition channels within the digital team. This involved building HTML email templates, working collaboratively with frontend developers to create new landing pages and improving the company websites SEO.",
